@@ -1,4 +1,3 @@
-
 package com.example.demo.service;
 
 import java.util.List;
@@ -8,5 +7,5 @@ public interface LocationService {
 
     LocationEntity createlocation(LocationEntity le);
 
-    List<LocationEntity> getalllocation();
+    List<LocationEntity> getAllLocations();
 }
