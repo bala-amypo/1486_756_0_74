@@ -13,7 +13,7 @@ import com.example.demo.service.LocationService;
 public class LocationController{
     @Autowired
     LocationService locationservice;
-    @PostMapping("/addstudent")
+    @PostMapping("/addlocation")
     public LocationEntity add(@RequestBody LocationEntity le){
         return locationservice.createlocation(le);
     }
