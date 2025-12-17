@@ -23,5 +23,7 @@ public class LocationEntity{
     public void setName(String name){
         this.name=name;
     }
-    
+    public Double getLatitude(){
+        return latitude;
+    }
 }
