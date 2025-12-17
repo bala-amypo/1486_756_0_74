@@ -1,8 +1,8 @@
 @RestContrller
 public class LocationController{
   @Autowired
-  LocationService LocationService
-  @PostMapping("/addstudent")
+  LocationService locationService;
+  @PostMapping("/addlocation")
   public LocalEntity add(@RequestBody LocalEntity le){
     return locationservice.createlocation(le);
 
