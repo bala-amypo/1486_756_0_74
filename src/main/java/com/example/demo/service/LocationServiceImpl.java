@@ -20,7 +20,7 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public List<LocationEntity> getalllocation() {
+    public List<LocationEntity> getAllLocations() {
         return locationRepository.findAll();
     }
 }
